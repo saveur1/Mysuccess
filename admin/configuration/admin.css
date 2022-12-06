@@ -1,0 +1,25 @@
+#maths,#comp,#eco,#ent,#gs,#eng,#rel,#sport,#cl,#maths_t,#comp_t,#eco_t,#ent_t,#gs_t,#eng_t,#rel_t,#sport_t,#cl_t {
+  border:1px solid;
+  height:20px;
+}
+p {
+      margin:0 5px;
+      padding:0;
+      font-size:15px;
+    }
+    span,th {
+      font-weight:bold;
+      color:#003438
+    }
+    .title {
+      font-size:25px;
+    }
+.table_scroll {
+  overflow-x:auto;
+}
+.table_scroll::-webkit-scrollbar {
+  display:none;
+}
+.table_scroll {
+  -ms-overflow-style:none;
+}
